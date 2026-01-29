@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bryce Zhao | Portfolio</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #121212;
+  color: #eaeaea;
+  line-height: 1.6;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #eaeaea;
+  font-weight: 500;
+}
+
+nav a:hover {
+  opacity: 0.7;
+}
+
+/* HEADER / BANNER */
+header {
+  position: relative;
+  background-image: url("banner.JPG");
+  background-size: cover;
+  background-position: center;
+  padding: 160px 30px 120px;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 65% 50% at center,
+    rgba(255,255,255,0.7) 0%,
+    rgba(255,255,255,0) 73%
+  );
+}
+
+header h1,
+header p {
+  position: relative;
+  color: #000;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 3.2rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+main {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 30px;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+
+section p {
+  color: #cfcfcf;
+  max-width: 650px;
+  margin: auto;
+}
+
+/* ALT CONTACT */
+.contact-alt {
+  margin-top: 25px;
+  color: #cfcfcf;
+  font-size: 1rem;
+}
+
+.contact-alt span {
+  display: block;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+footer {
+  padding: 40px;
+  color: #777;
+  font-size: 0.9rem;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="projects.html">Projects</a>
+</nav>
+
+<header>
+  <h1>Bryce Zhao</h1>
+  <p>Drone Pilot · Photographer · Videographer</p>
+</header>
+
+<main>
+
+<section>
+  <h2>About</h2>
+  <p>
+    Bryce Zhao is a FAA Part 107 licensed drone pilot who loves to go photograph and videograph the world.
+    Starting in 2023, he has recorded numerous videos and photos from multiple countries and states.
+    Currently, he is looking to work with construction and real estate companies to document progress,
+    market real estate, and document site layouts.
+  </p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+
+  <div class="contact-alt">
+    <span>Email: brycezhao319@gmail.com</span>
+    <span>Phone: (781) 970-4401</span>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  © 2026 Bryce Zhao
+</footer>
+
+</body>
+</html>
